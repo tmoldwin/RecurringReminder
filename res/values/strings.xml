@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RemindIt!</string>
+    <string name="EPtitle">Edit Reminder</string>
+    <string name="emailortext">Choose the type of reminder</string>
+
+    <string-array name="messagetype_array">
+        <item>Enter Phone Number</item>
+        <item>Choose a Contact</item>
+    </string-array>
+
+    <string name="RemindFrequency">Frequency of Reminder</string>
+    <string name="ChooseDateText">Choose Starting Date for Reminder</string>
+    <string name="ReminderTimeString">Choose Starting Time for Reminder</string>
+    <string name="ContactChooseDefaultText">Phone Number</string>
+    <string name="RemindTextHint">Enter Reminder Text</string>
+    <string name="RemindSaveButtonString">Save Reminder</string>
+    <string name="Cancel">Cancel</string>
+    <string name="CreateNewReminder">Create New Reminder</string>
+    <string name="Next">Next</string>
+    <string name="Save">Save</string>
+    <string name="Back">Back</string>
+    <string name="FrequencyPrompt">Choose the frequency of your reminder</string>
+    <string name="Interval">Frequency</string>
+
+    <string-array name="frequency_array">
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+    </string-array>
+
+    <string name="topReminderFrequency">Send Reminder Every</string>
+    <string name="Days">Days</string>
+    <string name="EnterZero">(Enter 0 for a One-Time Reminder)</string>
+    <string name="sendATotalOf">Send a Total of </string>
+    <string name="reminders">" Reminders"</string>
+
+</resources>

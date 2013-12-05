@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:gravity="top" 
+        android:hint="Write your message here..."
+        android:maxLength="121">
+     
+        <requestFocus />
+    </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/backtosetup"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="46dp"
+                    android:text="@string/Back" />
+
+                <Button
+                    android:id="@+id/savemessage"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="46dp"
+                    android:text="@string/Save" />
+            </LinearLayout>
+
+</LinearLayout>

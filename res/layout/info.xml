@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+     android:text="RemindIt is an Android application created by the TSZ app company. 
+It allows the user to send automatic recurring reminders to another phone. 
+The recipient of the reminder has the ability to automatically cancel the reminders at any time.
+Please do not use this application to send spam."
+    android:textSize="16sp" >
+</TextView>
